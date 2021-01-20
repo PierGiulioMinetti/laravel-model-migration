@@ -13,12 +13,12 @@ const app = new Vue({
         
         // Make a request for a user with a given ID
         axios.get('http://127.0.0.1:8000/api/bikes')
-          .then(function (response) {
+          .then(response=> {
             // handle success
             console.log(response.data);
             this.bikes = response.data;
           })
-          .catch(function (error) {
+          .catch(error=> {
             // handle error
             console.log(error);
           })
