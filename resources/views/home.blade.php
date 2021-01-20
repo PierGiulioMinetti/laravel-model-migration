@@ -28,8 +28,14 @@
         <ul>
             <li v-for="bike in bikes">
                 <h3>
-                    @{{bike.modello}}
+                  Modello:  @{{bike.modello}}
                 </h3>
+                <h3>
+                    Modello:  @{{bike.marca}}
+                  </h3>
+                  <h3>
+                    Modello:  @{{bike.targa}}
+                  </h3>
             </li>
         </ul>
     </div>
