@@ -21,5 +21,17 @@
             @endforeach
         </ul>
     </section>
+    <div id="app">
+        <h2>
+            Our bikes
+        </h2>
+        <ul>
+            <li v-for="bike in bikes">
+                <h3>
+                    @{{bike.modello}}
+                </h3>
+            </li>
+        </ul>
+    </div>
     
 @endsection

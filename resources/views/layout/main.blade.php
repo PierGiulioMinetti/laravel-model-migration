@@ -20,6 +20,8 @@
         </main>
 
         @include('partials.footer')
-        
+
+      
+        <script src="{{asset('/js.app')}}"></script>
     </body>
 </html>
